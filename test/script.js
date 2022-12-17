@@ -32,5 +32,5 @@ function getRandomColor() {
   return color;
 }
 function setRandomColor() {
-  $("#colorpad").css("background-color", getRandomColor());
+  $("body").css("background-color", getRandomColor());
 }
